@@ -17,6 +17,11 @@
         "styles/slick.css"
       ]
     },
+    "slick-theme.css": {
+      "files": [
+        "styles/slick-theme.css"
+      ]
+    },
     "customizer.js": {
       "files": [
         "scripts/customizer.js"
