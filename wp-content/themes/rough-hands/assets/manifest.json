@@ -12,6 +12,11 @@
       ],
       "main": true
     },
+    "slick.css": {
+      "files": [
+        "styles/slick.css"
+      ]
+    },
     "customizer.js": {
       "files": [
         "scripts/customizer.js"
@@ -20,6 +25,11 @@
     "retina.min.js": {
       "files": [
         "scripts/retina.min.js"
+      ]
+    },
+    "slick.min.js": {
+      "files": [
+        "scripts/slick.min.js"
       ]
     },
     "jquery.js": {
