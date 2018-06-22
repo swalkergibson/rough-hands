@@ -17,6 +17,11 @@
         "scripts/customizer.js"
       ]
     },
+    "retina.min.js": {
+      "files": [
+        "scripts/retina.min.js"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
     }
