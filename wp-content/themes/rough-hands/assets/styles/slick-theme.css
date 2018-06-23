@@ -75,7 +75,7 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -15px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -89,7 +89,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -15px;
 }
 [dir='rtl'] .slick-next
 {
@@ -169,7 +169,7 @@
 {
     font-family: 'slick';
     font-size: 6px;
-    line-height: 20px;
+    line-height: 30px;
 
     position: absolute;
     top: 0;
