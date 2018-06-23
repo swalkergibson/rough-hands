@@ -1,3 +1,37 @@
 // Grid settings
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+@font-face {
+    font-family: 'Alternate Gothic';
+    src: url('../fonts/alternate-gothic-webfont.woff2') format('woff2'),
+         url('../fonts/alternate-gothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url('../fonts/intro-webfont.woff2') format('woff2'),
+         url('../fonts/intro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chaparral Regular';
+    src: url('../fonts/ChaparralPro-Regular.woff2') format('woff2'),
+         url('../fonts/ChaparralPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-family-serif:  "Chaparral Regular", Times New Roman, serif !default;
+$font-family-sans-serif: "Alternate Gothic", Arial, sans-serif !default;
+$font-family-base:       $font-family-serif !default;
+
+$headings-font-family:   "Intro", Verdana, Arial, sans-serif !default;
