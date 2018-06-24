@@ -25,3 +25,29 @@ h4 {
     font-family: $font-family-sans-serif;
     letter-spacing: 0.1rem;
 }
+
+#page-hero {
+    button {
+        background: $white;
+        border: 1px solid transparent;
+        border-radius: 1.5rem;
+        cursor: pointer;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        &:hover {
+            border: 1px solid $black;
+        }
+    }
+}
+
+input {
+    &.form-control {
+        border: 1px solid $black;
+        border-right: 0;
+        border-radius: 1.2rem;
+        padding-left: 2rem;
+        &:focus {
+            border-color: inherit;
+        }
+    }
+}

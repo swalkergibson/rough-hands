@@ -1,0 +1,14 @@
+.btn-white {
+    @include button-variant($white, $black);
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 0.2rem 2rem;
+}
+
+.btn-interior {
+    @include button-outline-variant($black);
+    border-radius: 1.2rem;
+    border-left: 0;
+    padding-right: 2rem;
+    cursor: pointer;
+}
