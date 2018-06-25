@@ -27,6 +27,15 @@ h4 {
 }
 
 #page-hero {
+    color: $white;
+    h1 {
+        max-width: 45.1rem;
+        line-height: 3.4rem;
+    }
+    h4 {
+        max-width: 28.2rem;
+        line-height: 2rem;
+    }
     button {
         background: $white;
         border: 1px solid transparent;

@@ -1,6 +1,3 @@
-<?php
-$hero = get_the_post_thumbnail_url($post, 'full');
-?>
 <header class="banner">
   <div class="container">
     <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>

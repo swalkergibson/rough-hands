@@ -75,7 +75,7 @@
 
 .slick-prev
 {
-    left: -15px;
+    left: 0;
 }
 [dir='rtl'] .slick-prev
 {
@@ -89,7 +89,7 @@
 
 .slick-next
 {
-    right: -15px;
+    right: 0;
 }
 [dir='rtl'] .slick-next
 {
