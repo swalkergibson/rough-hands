@@ -1,0 +1,17 @@
+header {
+    nav {
+        .nav {
+            li {
+                a {
+                    color: $white;
+                    font-size: 1.2rem;
+                    font-family: $font-family-sans-serif;
+                    letter-spacing: 0.1rem;
+                    text-transform: uppercase;
+                    margin-left: 3rem;
+                    margin-right: 3rem;
+                }
+            }
+        }
+    }
+}
