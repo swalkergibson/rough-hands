@@ -20,8 +20,21 @@ h3 {
     font-family: $font-family-sans-serif;
 }
 
+h2 {
+    font-size: 1.55rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
 h4 {
     font-family: $font-family-serif;
+}
+
+h5 {
+    font-size: 1.45rem;
+    letter-spacing: 0.1rem;
 }
 
 .btn {
@@ -85,6 +98,10 @@ div.wrap {
             max-width: 51.7rem;
             padding-top: 1rem;
         }
+    }
+    .narrow {
+        width: 19rem;
+        margin: 0 auto;
     }
 }
 @include media-breakpoint-up(xl) {}
