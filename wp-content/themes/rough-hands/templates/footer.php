@@ -49,3 +49,17 @@
         </div>
     </div>
 </footer>
+<!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+<div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="color:#fff;">
+            <div class="modal-header" style="border:0;">
+                    <h4 class="modal-title text-center"><img src="/wp-content/themes/rough-hands/dist/images/location_img_invert.png" alt="Rough Hands mobile logo" /><span class="sr-only">main navigation</span></h4>
+                    <button type="button" class="close btn btn-link" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close fa-lg" style="color:#fff;"></i></button>	
+            </div>
+            <div class="modal-body text-center">
+            <?php wp_nav_menu(['theme_location' => 'primary_navigation']) ?>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.fullscreen -->

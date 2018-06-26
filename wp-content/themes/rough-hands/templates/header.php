@@ -24,7 +24,7 @@
   <div class="container">
     <nav class="navbar navbar-dark bg-dark nav-primary navbar-expand-md bg-transparent">
       <a href="/" class="navbar-brand d-md-none"><img src="/wp-content/themes/rough-hands/dist/images/logo_medium.png" alt="Rough Hands mobile logo" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="modal" data-target="#menuModal" aria-controls="menuModal" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
       <?php
       if (has_nav_menu('primary_navigation')) :
