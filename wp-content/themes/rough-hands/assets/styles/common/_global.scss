@@ -1,5 +1,4 @@
 body {
-    padding-top: 40px;
 }
 
 a {
@@ -43,14 +42,14 @@ input {
 }
 
 div.wrap {
-    margin-top: -118px;
+    margin-top: -124px;
 }
 
 #page-hero {
     background-color: transparent;
     color: $white;
     padding-top: 138px;
-    padding-bottom: 120px;
+    padding-bottom: 121px;
     h1 {
         max-width: 45.1rem;
         line-height: 3.4rem;
@@ -72,3 +71,11 @@ div.wrap {
     }
 }
 
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+@include media-breakpoint-up(sm) {}
+@include media-breakpoint-up(md) {}
+@include media-breakpoint-up(lg) {}
+@include media-breakpoint-up(xl) {}

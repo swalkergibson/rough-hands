@@ -1,5 +1,12 @@
 header {
+    margin-top: 24px;
     nav {
+        .navbar-brand {
+            img {
+                width: 250px;
+                height: auto;
+            }
+        }
         .nav {
             li {
                 a {
@@ -8,8 +15,62 @@ header {
                     font-family: $font-family-sans-serif;
                     letter-spacing: 0.1rem;
                     text-transform: uppercase;
-                    margin-left: 3rem;
-                    margin-right: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {}
+@include media-breakpoint-up(md) {
+    header {
+        margin-top: 30px;
+        nav {
+            .nav {
+                li {
+                    a {
+                        margin-left: 1rem;
+                        margin-right: 1rem;
+                    }
+                    &.logo-box {
+                        height: 78px;
+                        width: 395px;
+                        background-image: url('../images/logo_long.png');
+                        background-color: transparent;
+                        background-repeat: no-repeat;
+                        margin-left: 1rem;
+                        margin-right: 1rem;
+                        a {
+                            padding-bottom: 52px;
+                            padding-right: 395px;
+                            margin-left: 0;
+                            margin-right: 0;
+                        }
+                    }
+                    &.text-link {
+                        margin-top: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@include media-breakpoint-up(lg) {
+}
+
+@include media-breakpoint-up(xl) {
+    header {
+        nav {
+            .nav {
+                li {
+                    &.logo-box {
+                        margin-left: 3rem;
+                        margin-right: 3rem;
+                    }
+                    a {
+                        margin-left: 3rem;
+                        margin-right: 3rem;
+                    }
                 }
             }
         }

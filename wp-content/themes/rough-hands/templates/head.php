@@ -6,8 +6,10 @@
   <!-- Inject hero image into page CSS, if it exists -->
   <?php if (has_post_thumbnail($post)) : $hero = get_the_post_thumbnail_url($post, 'full'); ?>
     <style type="text/css">
-      #page-hero {
+      body {
         background-image: url('<?=$hero?>');
+        background-color: transparent;
+        background-repeat: no-repeat;
       }
     </style>
   <?php endif; ?>
