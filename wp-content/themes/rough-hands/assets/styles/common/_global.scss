@@ -42,14 +42,12 @@ input {
 }
 
 div.wrap {
-    margin-top: -124px;
 }
 
 #page-hero {
     background-color: transparent;
     color: $white;
-    padding-top: 138px;
-    padding-bottom: 121px;
+    padding-top: 0;
     h1 {
         max-width: 45.1rem;
         line-height: 3.4rem;
