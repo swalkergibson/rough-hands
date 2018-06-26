@@ -32,16 +32,17 @@ header {
                         margin-right: 1rem;
                     }
                     &.logo-box {
-                        height: 78px;
-                        width: 395px;
+                        height: 50px;
+                        width: 250px;
                         background-image: url('../images/logo_long.png');
                         background-color: transparent;
                         background-repeat: no-repeat;
                         margin-left: 1rem;
                         margin-right: 1rem;
+                        background-size: 250px auto;
                         a {
-                            padding-bottom: 52px;
-                            padding-right: 395px;
+                            padding-bottom: 23px;
+                            padding-right: 250px;
                             margin-left: 0;
                             margin-right: 0;
                         }
@@ -55,6 +56,24 @@ header {
     }
 }
 @include media-breakpoint-up(lg) {
+    header {
+        margin-top: 30px;
+        nav {
+            .nav {
+                li {
+                    &.logo-box {
+                        height: 78px;
+                        width: 395px;
+                        background-size: auto auto;
+                        a {
+                            padding-bottom: 52px;
+                            padding-right: 395px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @include media-breakpoint-up(xl) {
