@@ -10,6 +10,7 @@
         background-image: url('<?=$hero?>');
         background-color: transparent;
         background-repeat: no-repeat;
+        background-position: center 0;
       }
     </style>
   <?php endif; ?>
