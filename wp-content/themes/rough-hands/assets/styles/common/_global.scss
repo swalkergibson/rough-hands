@@ -87,8 +87,23 @@ div.wrap {
     background-color: transparent !important;
 }
 
+p.small {
+    font-size: 70%;
+}
+
 @include media-breakpoint-up(sm) {}
-@include media-breakpoint-up(md) {}
+@include media-breakpoint-up(md) {
+    .required-height {
+        min-height: 75px;
+    }
+
+    .call-to-action {
+        .btn-white {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+}
 @include media-breakpoint-up(lg) {
     #page-hero {
         h1 {
@@ -99,9 +114,21 @@ div.wrap {
             padding-top: 1rem;
         }
     }
+
     .narrow {
         width: 19rem;
         margin: 0 auto;
+    }
+
+    .required-height {
+        min-height: 54px;
+    }
+
+    .call-to-action {
+        .btn-white {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
     }
 }
 @include media-breakpoint-up(xl) {}
